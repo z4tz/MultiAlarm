@@ -82,7 +82,7 @@ namespace MultiAlarm
             timer.Interval = 1000;
             timer.Tick += timer_Tick;
             
-            timer.Start();
+            timer.Start();//
         }
 
         void timer_Tick(object sender, EventArgs e)
